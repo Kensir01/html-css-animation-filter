@@ -188,7 +188,7 @@
 }
 
 
-.ex-12-button:hover {
+.ex-12-button:hover .ex-12-top-white {
     animation: barrasopra 2s linear;
 }
 
@@ -202,5 +202,22 @@
     }
     100% {
         left: 10%;
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: barrasotto 2s linear;
+}
+
+
+@keyframes barrasotto {
+    0% {
+        right: 20%;
+    }
+    60% {
+        right: calc(100% - 60px);
+    }
+    100% {
+        right: 20%;
     }
 }
