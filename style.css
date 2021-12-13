@@ -225,11 +225,11 @@
 
 
 .ex-13-button:hover .ex-13-top-white {
-    animation: barrasopra13 2s linear;
+    animation: primo 2s linear;
 }
 
 
-@keyframes barrasopra13 {
+@keyframes primo {
     0% {
         top: -10px;
         left: 10%;
@@ -257,12 +257,12 @@
 }  
 
 
-.ex-13-button:hover .ex-13-top-white {
-    animation: barrasotto13 2s linear;
+.ex-13-button:hover .ex-13-bottom-white {
+    animation: secondo 2s linear;
 }
 
 
-@keyframes barrasotto13 {
+@keyframes secondo {
     0% {
         bottom: -10px;
         right: 10%;
